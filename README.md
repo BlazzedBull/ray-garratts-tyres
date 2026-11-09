@@ -1,4 +1,17 @@
-# vinext-starter
+# RAY GARRATT’S TYRES
+
+Pirelli performance meets the Coast: a responsive two-page showroom concept for Ray Garratt’s Tyres in Stanmore Bay, Auckland.
+
+The public GitHub repository should use the slug `ray-garratts-tyres`, while GitHub and Vercel display the name **RAY GARRATT’S TYRES**. Vercel deploys the static build with `npm run vercel-build` and publishes `vercel-dist`.
+
+## Project routes
+
+- `/` — video-led showroom, tyre finder, featured sample range and enquiry basket
+- `/about` — shop story, services, opening hours, directions and map
+
+---
+
+# Legacy Sites starter notes
 
 A clean full-stack starter running on [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and Drizzle support.
 
