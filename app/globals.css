@@ -77,3 +77,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}.hero video{opacity:0}.hero{background:url('/media/coastal-poster.jpg') center/cover}}
 
 @media(max-width:540px){.finder-tabs .size-help{position:static;max-width:none;flex-basis:100%;margin:0;text-align:left;font-size:9px;padding:0}.finder-tabs{row-gap:12px}}
+
+.footer-bottom .zule-credit{white-space:nowrap;font-size:11px;color:#c9c9c6;letter-spacing:.2px}.footer-bottom .zule-credit a{display:inline;color:var(--yellow);font-weight:700}.footer-bottom .zule-credit a:hover{color:#fff;text-decoration:underline}
