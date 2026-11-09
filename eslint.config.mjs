@@ -10,9 +10,20 @@ const eslintConfig = defineConfig([
     ".vinext/**",
     ".wrangler/**",
     ".sites-runtime/**",
+    "vercel-dist/**",
     "outputs/**",
     "work/**",
   ]),
+  {
+    files: ["app/storefront.tsx", "app/ecommerce.tsx"],
+    rules: {
+      // These presentation-led routes also compile as a static Vite storefront,
+      // so native links and image tags are deliberate cross-runtime primitives.
+      "@next/next/no-html-link-for-pages": "off",
+      "@next/next/no-img-element": "off",
+      "react-hooks/set-state-in-effect": "off",
+    },
+  },
   {
     files: ["components/ui/**/*.{ts,tsx}", "hooks/use-mobile.ts"],
     rules: {
